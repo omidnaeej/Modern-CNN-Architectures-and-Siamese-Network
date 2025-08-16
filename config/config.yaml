@@ -1,0 +1,9 @@
+block_config: ['A']
+batch_size: 64
+num_workers: 2
+loss: "CE"
+lr: 0.1
+momentum: 0.5
+gamma: 0.99
+num_epochs: 30
+use_separable_conv: False
